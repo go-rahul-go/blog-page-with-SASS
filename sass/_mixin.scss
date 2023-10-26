@@ -1,0 +1,26 @@
+@mixin flex1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row;
+}
+
+@mixin flex2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-flow: column;
+}
+
+@mixin flex3{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;
+}
+@mixin flex4{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row;
+}
